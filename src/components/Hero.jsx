@@ -11,7 +11,7 @@ const Hero = () => {
                         <a href="#about">About Me</a>
                     </div>
                     <div className='btn2'>
-                        <a href="#contact"> Hire me</a>
+                        <a href="#contact"> Contact me</a>
                     </div>
                 </div>
 
