@@ -2,7 +2,7 @@ import { Github, Link } from "lucide-react";
 
 const ProjectCard = ({ project }) => {
     return (
-        <div className="project-card" id="projects">
+        <div className="project-card">
             <div className="image">
                 <img src={project.image} />
             </div>

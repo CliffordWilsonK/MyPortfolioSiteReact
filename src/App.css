@@ -234,10 +234,15 @@ body {
     flex-direction: column;
 }
 
+.Projects #text{
+    font-size: 1.3rem;
+}
+
 .Projects .projects-container {
     display: flex;
     flex-wrap: wrap;
 }
+
 
 .project-card{
     width: 460px;
@@ -287,4 +292,40 @@ body {
     .icon{
         stroke: #904f97;
     }
+}
+
+.Contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.Contact .item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.Contact .item span{
+    padding: 0 10px;
+}
+
+.Contact #text{
+    font-size: 1.3rem;
+}
+
+.Contact .info a{
+    text-decoration: none;
+    color: #313743;
+}
+
+.Contact .info a:hover{
+    color: #904f97;
+}
+
+.Contact .info{
+    font-size: 1.05rem;
 }
