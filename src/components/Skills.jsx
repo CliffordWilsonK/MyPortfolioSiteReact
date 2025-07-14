@@ -2,7 +2,7 @@ import Skillscard from "./Skillscard";
 const Skills = () => {
     const languages = ['HTML','CSS','JS','Python','PHP', 'SQL']
     const libraries = ['React','Redux','Luicide-React','Firebase']
-    const frameworks = ['Django','Machine Learning','Blockchain Development','Cloud Computing']
+    const frameworks = ['Django','Machine Learning','Blockchain','Cloud Computing']
     return(
         <div className="Skills" id="skills">
             <div className="section-title">
